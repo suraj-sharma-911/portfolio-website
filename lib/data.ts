@@ -77,7 +77,7 @@ export const projectsData = [
     previewUrl: "https://clone-88d2f.web.app/",
   },
   {
-    title: "",
+    title: "Portfolio",
     description:
       "Built a functional e-commerce site mirroring Amazon.com. Used HTML, CSS, JavaScript, and React.js for responsive design. Features include product listings, user authentication, and checkout. Demonstrates front-end development skills.",
     tags: ["React", "HTML", "CSS", "Firebase"],
