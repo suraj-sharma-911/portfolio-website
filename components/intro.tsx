@@ -46,19 +46,6 @@ function Intro() {
               // shadow-xl"
             />
           </motion.div>
-          <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
-            initial={{opacity: 0, scale: 0}}
-            animate={{opacity: 1, scale: 1}}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋🏻
-          </motion.span>
         </div>
       </div>
       <motion.h1
