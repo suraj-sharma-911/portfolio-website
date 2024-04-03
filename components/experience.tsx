@@ -11,7 +11,7 @@ import {experiencesData} from "@/lib/data";
 import {useTheme} from "@/context/theme-context";
 
 export default function Experience() {
-  const {ref, inView} = useSectionInView("Experience", 0.5);
+  const {ref, inView} = useSectionInView("Experience", 0.25);
   const {theme} = useTheme();
   return (
     <section ref={ref} id="experience" className="mt-28 scroll-mt-28">
