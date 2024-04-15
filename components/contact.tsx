@@ -4,7 +4,6 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import {motion} from "framer-motion";
 import {sendEmail} from "@/actions/sendEmail";
-import {useFormStatus} from "react-dom";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 
