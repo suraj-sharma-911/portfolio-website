@@ -3,6 +3,7 @@ import {CgWorkAlt} from "react-icons/cg";
 import {LuGraduationCap} from "react-icons/lu";
 import amazonCloneProject from "@/public/amazonCloneProject.png";
 import portfolioImg from "@/public/portfolioImg.png";
+import nextjsDashboardImg from "@/public/nextjsDashboardImg.png";
 
 export const links = [
   {
@@ -13,10 +14,10 @@ export const links = [
     name: "About",
     hash: "#about",
   },
-  // {
-  //   name: "Projects",
-  //   hash: "#projects",
-  // },
+  {
+    name: "Projects",
+    hash: "#projects",
+  },
   {
     name: "Skills",
     hash: "#skills",
@@ -68,6 +69,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Portfolio",
+    description:
+      "Built a functional e-commerce site mirroring Amazon.com. Used HTML, CSS, JavaScript, React.js/Nextjs and Tailwind CSS for responsive design. Features include product listings, user authentication, and checkout. Demonstrates front-end development skills.",
+    tags: ["React", "HTML", "CSS", "Vercel"],
+    imageUrl: portfolioImg,
+    gitUrl: "https://github.com/suraj-sharma-911/portfolio-website",
+    previewUrl: "",
+  },
+  {
+    title: "Accounts Payable Dashboard",
+    description:
+      "Built a functional Accounts Payable site. Features include user authentication, Customer and Ivoice listings, Dashboard, search and CRUD operations. Demonstrates Full-stack development skills.",
+    tags: ["React", "HTML", "CSS", "NextJs", "PostgresSQL"],
+    imageUrl: nextjsDashboardImg,
+    gitUrl: "https://github.com/suraj-sharma-911/nextjs-invoiceDashboard",
+    previewUrl: "https://nextjs-dashboard-eight-mu-49.vercel.app/",
+  },
+  {
     title: "Amazon Clone",
     description:
       "Built a functional e-commerce site mirroring Amazon.com. Used HTML, CSS, JavaScript, and React.js for responsive design. Features include product listings, user authentication, and checkout. Demonstrates front-end development skills.",
@@ -75,15 +94,6 @@ export const projectsData = [
     imageUrl: amazonCloneProject,
     gitUrl: "https://github.com/suraj-sharma-911/amazon-clone",
     previewUrl: "https://clone-88d2f.web.app/",
-  },
-  {
-    title: "Portfolio",
-    description:
-      "Built a functional e-commerce site mirroring Amazon.com. Used HTML, CSS, JavaScript, and React.js for responsive design. Features include product listings, user authentication, and checkout. Demonstrates front-end development skills.",
-    tags: ["React", "HTML", "CSS", "Firebase"],
-    imageUrl: portfolioImg,
-    gitUrl: "https://github.com/suraj-sharma-911/portfolio-website",
-    previewUrl: "",
   },
 ] as const;
 
