@@ -18,7 +18,7 @@ function Intro() {
   return (
     <section
       className="mb-28 
-      max-w-[50rem] 
+      max-w-[60rem] 
       text-center 
       sm:mb-0 
       scroll-mt-[100rem]"
@@ -54,11 +54,20 @@ function Intro() {
         initial={{opacity: 0, y: 100}}
         animate={{opacity: 1, y: 0}}
       >
-        <span className="font-bold">Hello, I'm Suraj.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">3 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">Node.js and React (Next.js)</span>.
+        <span className="font-bold">
+          Hello, I'm Suraj, a backend developer with a passion for building
+          high-performance systems that scale effortlessly. With{" "}
+        </span>
+        {/* <span className="font-bold">backend developer</span> with{" "} */}
+        <span className="font-bold">3+ years</span> of experience delivering
+        scalable applications for $9.5M projects. Led backend development for
+        global clients, achieving 99% system uptime. Expertise in{" "}
+        {/* building <span className="italic">sites & apps</span>. My focus is{" "} */}
+        <span className="underline">
+          Node.js, Express.js, Reactjs, SQL, Azure Cloud and Frontend
+          technologies like React (Next.js)
+        </span>
+        .
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center

@@ -31,7 +31,7 @@ export default function About() {
         </span>{" "}
         over two years. I have deep knowledge in technologies such as{" "}
         <span className="font-medium italic">
-          JavaScript, TypeScript, React.js, Node.js, Azure, SQL and AWS.
+          JavaScript, TypeScript, React.js, Node.js, Azure, SQL, SAP CAP, SAP BTP and AWS.
         </span>{" "}
         My experience in the tech field has focused on solving complex problems,
         improving system performance, and successfully completing projects from

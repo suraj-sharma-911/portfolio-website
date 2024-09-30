@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Associate Software Engineer at Incture",
     location: "Bengaluru, Karnataka, India",
     description:
-      "Developed backend solutions for Hino Motors, including a portal with multiple features for fleet management. Led migration from RabbitMQ to Kafka, resulting in a significant reduction in data processing time. Improved data latency by 80% through strategic database optimizations.",
+      "As a Node.js Backend Developer, I engineered backend systems for 20,000 IoT-connected trucks, optimizing 2TB+ databases and integrating telemetry from 5+ Telematics Service Providers. I implemented geofencing for 500+ dealers, improving dealer interactions and truck servicing. \n I also led the migration from RabbitMQ to Kafka, processing 50M+ daily messages, reducing delays from two minutes to 60 milliseconds, and achieving 99% uptime. I enhanced cloud integration using Azure services, including Event Grid and Service Bus, for reliable event-based processing.",
     icon: React.createElement(CgWorkAlt),
     date: "Nov 2021 - Jun 2023",
   },
@@ -61,7 +61,7 @@ export const experiencesData = [
     title: "Software Engineer at Incture",
     location: "Incture - Bengaluru, Karnataka, India",
     description:
-      "Leading a team of six to address client concerns and enhance platform functionality. Skilled in full-stack development, with a focus on React.js and Node.js for Accounts Payable Automation. Also involved in mentoring colleagues and contributing to backend projects for clients.",
+      "As a Solutioning and Backend Developer for NTUC FairPrice, I architected an automated system that generated PPTX price cards for 800+ users across 400 stores, utilizing SAP DMS. I developed over 50 OData APIs using SAP CAP and optimized the generation of 1,000+ slides in under two minutes. I led a team of five in template creation and ensured on-time delivery by closely aligning solutions with client goals. \n For Hino Motors, USA, I led production support, enhancing system scalability by onboarding Canadian users and achieving 95% SLA compliance. I also managed 100+ change requests and technical documentation.",
     icon: React.createElement(CgWorkAlt),
     date: "Jul 2023 - Present",
   },
@@ -104,7 +104,13 @@ export const skillsData = [
   "SQL Server",
   "Sequelize",
   "Kafka",
-  "Azure Cloud",
+  "Azure Functions",
+  "Azure ServiceBus/ Queues",
+  "Azure Blob storage",
+  "RabbitMQ",
+  "SAP BTP",
+  "SAP CAP",
+  "SAP HANA",
   "Redis",
   "PostgreSQL",
   "TypeScript",
@@ -118,5 +124,4 @@ export const skillsData = [
   "Git",
   "Jira",
   "Azure DevOps",
-  "Java",
 ] as const;

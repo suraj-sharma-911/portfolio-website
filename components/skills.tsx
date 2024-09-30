@@ -14,14 +14,14 @@ const fadeInAnimationVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      delay: 0.05 * index,
+      delay: 0.08 * index,
     },
   }),
 };
 export default function Skills() {
   const {ref} = useSectionInView("Skills", 1);
   return (
-    <section id="skills" ref={ref} className="mb-28 scroll-mt-28">
+    <section id="skills" ref={ref} className="mb-28 scroll-mt-28 max-w-[60rem]">
       <SectionHeading>My Skills</SectionHeading>
       <ul className="flex  flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
